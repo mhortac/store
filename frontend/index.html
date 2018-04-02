@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="Application" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="Application" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="Application" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="Application" class="no-js"> <!--<![endif]-->
+<head>
+    <title ng-bind="APP_TITLE">El Barató</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+  
+    <!-- libraries:css -->
+    <link rel="stylesheet" href="/static/libs/bootstrap/css/bootstrap.min.css">
+    <!-- endinject -->
+</head>
+
+<body>
+
+    <div class="ngview" ng-view></div>
+
+    <!-- Libraries -->    
+    <script src="/static/libs/angular/angular.js"></script>
+    <script src="/static/libs/angular-route/angular-route.js"></script>
+    
+    <script src="/static/app/app.js"></script>
+    <script src="/static/app/main/main.controller.js"></script>
+    <script src="/static/app/categories/categories.controller.js"></script>
+    <!-- endinject -->
+</body>
+</html>
